@@ -1,0 +1,78 @@
+.header{ 
+    display:flex;
+    justify-content: space-evenly ;
+}
+
+.open-work-orders, 
+.open-14-days,
+.completed-work-orders-year,
+.completed-work-orders {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15);
+    padding: 10 px;
+}
+.open-work-orders{
+    background-color: #FFFF00;
+    color: rgb(41, 41, 41);
+    text-align: center;
+}
+
+.completed-work-orders-year{
+    text-align: center;
+}
+
+.work-orders-value,
+.work-orders-value14,
+.work-orders-valueC,
+.work-orders-valueCY{
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#valueOpen, #value14{
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.open-14-days {
+    background-color: #FF7F00;
+    color: rgb(41, 41, 41);
+    text-align: center;
+}
+
+.completed-work-orders{
+    background-color: #1E90FF;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15);
+}
+
+.completed-work-orders button{
+    background-color: #1E90FF;
+    color: rgb(41, 41, 41);
+    margin: 0;
+    width: 75%;
+    height: 75%;
+    border: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px;
+    cursor:pointer;
+    text-align: center;
+}
+
+.completed-work-orders-year {
+    background-color:#00FF00;
+    color: rgb(41, 41, 41);;
+}

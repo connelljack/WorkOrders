@@ -1,0 +1,138 @@
+body{
+    Background-color: rgb(22, 22, 22);
+    margin: 0;
+}
+
+.table-container { 
+    height: 340px;
+    width: 80%;
+    padding-top: 0px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: 15px;
+}
+table{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(41, 41, 41);
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(122, 122, 122);
+    padding: 8px;
+    margin-top: 0px;
+    
+}
+
+th{
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+tr:hover {
+    background-color: black;
+}
+
+td {
+    border: 1px solid black;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 4px;
+}
+
+.chartLine-div {
+    display:flex;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 96.5%;
+    height: 300px; 
+    background-color: rgb(41, 41, 41);
+    padding-top: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 8px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative; /* Set the parent div to relative */
+}
+
+.second_row{
+    display: flex;
+    height: 375px;
+}
+
+.third_row{
+    display: flex;
+    height: 400px;
+}
+
+
+
+.chartPie-div {
+    flex: 1;
+    background-color: rgb(41, 41, 41);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Set the parent div to relative */
+}
+
+.chartBar-div{
+    flex: 1;
+    background-color: rgb(41, 41, 41);
+    padding-top: 30px;
+    border-radius: 15px;
+    padding-left: 50px;
+    margin-right: 0;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Set the parent div to relative */
+}
+.chartBar-div2{
+    flex: 1;
+    background-color: rgb(41, 41, 41);
+    padding-top: 30px;
+    border-radius: 15px;
+    padding-left: 50px;
+    margin-right: 0;
+    margin-left: 15px;
+    display: flex;
+    justify-content: left;
+    position: relative; /* Set the parent div to relative */
+}
+
+#chartBar{
+    width: 300px; 
+    height: 300px;
+}
+
+#chartBar2{
+    width: 300px; 
+    height: 300px;
+}
+
+.ballpark-activity{
+    flex: 1;
+}
+
+.table-containerE{
+    margin-left: 15px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 400px;
+}
+
+.label {
+    position: absolute; /* Use absolute positioning */
+    top: 10px; /* Adjust the top position */
+    left: 10px; /* Adjust the left position */
+    z-index: 10; /* Ensure it appears above other elements */
+    background-color: rgba(0, 0, 0, 0.3); /* Optional: background for better readability */
+    color: rgba(255, 255, 255, 0.6);
+    padding: 5px; /* Optional: some padding */
+    border-radius: 5px; /* Optional: rounded corners */
+}

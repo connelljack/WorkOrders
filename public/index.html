@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/tables.css">
+    <link rel="stylesheet" href="styles/A.css">
+    <title>Work Orders</title>
+    <script src="workOrders.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="open-work-orders">
+            <div>
+                Open Work Orders this Month
+            </div>
+            <div id="work-orders-value"><span id="valueOpen"></span></div>
+        </div>
+        <div class="open-14-days">
+            <div>
+                Open Work Orders Over 14 days Year to Date
+            </div>
+            <div id="work-orders-value14"><span id="value14"></span></div>
+        </div>
+        <div class="completed-work-orders">
+            <div>
+                Completed Work Orders this Month
+            </div>
+            <div class="work-orders-valueC">
+                <span id="valueC"></span>
+            </div>
+        </div>
+        <div class="completed-work-orders-year">
+            <div>
+                Completed Work Orders Year to Date
+            </div>
+            <div class="work-orders-valueCY">
+                <span id="valueCY"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="second_row">
+        <div id="workOrdersOutput" class="table-container"></div>
+        <div class="chartLine-div">
+            <div class="label">WorkOrders By Month This Year</div>
+            <canvas id="chartLine"></canvas>
+        </div>
+    </div>
+    <div class="third_row">
+        <div class="chartPie-div">
+            <div class="label">WorkOrders by Type This Month</div>
+            <canvas id="chartPie"></canvas>
+        </div>
+        <div class="chartBar-div">
+            <div class="label">WorkOrders by Employee This Month</div>
+            <canvas id="chartBar"></canvas>
+        </div>
+        <div class="chartBar-div2">
+            <div class="label">Events by Type This Year</div>
+            <canvas id="chartBar2"></canvas>
+        </div>
+    </div>
+</body>
+</html>
