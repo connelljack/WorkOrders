@@ -9,8 +9,6 @@ app.use(express.static('public/'));
 // Middleware to parse JSON request bodies
 app.use(express.json());
 
-//const authUrl = "https://app.247software.com/authenticate?username=tableautv@redsox.com&password=Redsox2024";
-
 const workOrdersUrl =`https://app.247software.com/workOrders?data={"start":0,"limit":1000}`
 
 const database = new Datastore('database.db');
